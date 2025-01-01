@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  background-color: #ffffff;
+}
+
+.Topbar,
+.Suggestion,
+.Bottombar,
+.swiper,
+.Extandle,
+.wishes {
+  padding: 0 80px;
+}
+
+input,
+select {
+  outline: none;
+}
+
+svg,
+img,
+button,
+select {
+  cursor: pointer;
+}
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+}
