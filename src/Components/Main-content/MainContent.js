@@ -7,6 +7,10 @@ import "swiper/css/navigation";
 import "./MainContent.css";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Link } from "react-router-dom";
+import img1 from "./ct8qhmei4n3ehka2dvd0.jpg";
+import img2 from "./ctemhb45j42dmkoiqbt0.jpg";
+import img3 from "./ctfthb5pb7faledbld20.jpg";
+import img4 from "./ctgj0fb4nkds9ma177hg.jpg";
 
 export default function MainContent() {
   return (
@@ -27,7 +31,7 @@ export default function MainContent() {
       <SwiperSlide>
         <Link to="/">
           <img
-            src="https://images.uzum.uz/ctgj0fb4nkds9ma177hg/main_page_banner.jpg"
+            src={img1}
             alt="uzum"
           />
         </Link>
@@ -35,7 +39,7 @@ export default function MainContent() {
       <SwiperSlide>
         <Link to="/">
           <img
-            src="https://images.uzum.uz/ct8qhmei4n3ehka2dvd0/main_page_banner.jpg"
+            src={img2}
             alt="uzum"
           />
         </Link>
@@ -43,7 +47,7 @@ export default function MainContent() {
       <SwiperSlide>
         <Link to="/">
           <img
-            src="https://images.uzum.uz/ctfthb5pb7faledbld20/main_page_banner.jpg"
+            src={img3}
             alt="uzum"
           />
         </Link>
@@ -51,7 +55,7 @@ export default function MainContent() {
       <SwiperSlide>
         <Link to="/">
           <img
-            src="https://images.uzum.uz/ctemhb45j42dmkoiqbt0/main_page_banner.jpg"
+            src={img4}
             alt="uzum"
           />
         </Link>
